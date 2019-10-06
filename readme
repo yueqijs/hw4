@@ -1,3 +1,5 @@
+PART ONE
+
 How many lines are drawn each frame? In other words, how often does the for loop run?
 
 40 lines, the loop runs every 10px
@@ -9,4 +11,29 @@ The 1st means the loop starts at the 10th px on the x-axis.
 the 2nd means the loop stops by x-10, 
 
 the 3rd means the loop is add 10px each time. 
+
+PART TWO
+
+How many times does the loop body run each frame, once the x and y arrays are full?
+
+5 times
+
+What are two ways of increasing the spacing between rings?
+
+By adding more value to the for (...,...,i = i + ???)
+
+or
+
+By adding more value to the ellipse 
+
+  ellipse(x[i*2], y[i*2], 1 + (x.length - i*2));
+  
+How can you make the ellipse trail longer?
+
+  x = x.slice(-70); // remove all but the last 50 x values
+  y = y.slice(-70); // remove all but the last 50 y values
+
+```
+
+
 
