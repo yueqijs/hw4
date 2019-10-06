@@ -1,0 +1,18 @@
+How many lines are drawn each frame? In other words, how often does the for loop run?
+
+```bash
+40 lines, the loop runs every 10px
+
+```
+
+What do the first, second, and third appearances of the number 10 do in the code?
+
+
+```bash
+The 1st means the loop starts at the 10th px on the x-axis. 
+
+the 2nd means the loop stops by x-10, 
+
+the 3rd means the loop is add 10px each time. 
+
+```
